@@ -47,3 +47,21 @@ section>.cont{
 footer{
     background-color: rgb(255, 0, 0);
 }
+
+@media screen and (max-width:640px){
+    #wrap{
+        width: 100%;
+        margin: 0;
+
+    }
+    section{
+        display: block;
+    }
+    section>.left{
+        width: 100%;
+    }
+    section>.cont{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
