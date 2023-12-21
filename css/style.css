@@ -7,7 +7,7 @@
     font-weight: 600;
     line-height: 50;
     text-align: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 header, section, footer{
     border-radius: 1px;
@@ -16,4 +16,7 @@ header, section, footer{
 header{
     height: 100px;
     background-color: gray;
+}
+footer{
+    background-color: red;
 }
