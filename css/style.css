@@ -9,3 +9,11 @@
     text-align: center;
     border: 1px solid #000;
 }
+header, section, footer{
+    border-radius: 1px;
+}
+
+header{
+    height: 100px;
+    background-color: gray;
+}
